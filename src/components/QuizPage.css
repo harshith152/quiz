@@ -1,0 +1,141 @@
+
+.quiz-page-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0b1120;
+}
+
+
+.quiz-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: white;
+  color: #0b1120;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.question-count {
+  font-weight: 600;
+  font-size: 18px;
+  color: #4F4F4F;
+}
+
+
+.timer {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FF0000;
+}
+
+
+.question-text {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.option-button {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #E5E5E5;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+
+.option-button.selected {
+  border-color: #007BFF;
+}
+
+
+.option-button:hover {
+  border-color: #007BFF;
+}
+
+
+.next-button {
+  padding: 12px 24px;
+  background-color: #28A745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+
+.next-button:hover {
+  background-color: #218838;
+}
+
+
+.quiz-completion-container {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.quiz-completion-container h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0b1120;
+  margin-bottom: 20px;
+}
+
+
+.trophy-image {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+
+.quiz-completion-container p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0b1120;
+}
+
+
+.quiz-score {
+  font-weight: 700;
+  color: #28A745;
+}
